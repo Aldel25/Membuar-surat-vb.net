@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A36F362-9FE8-4961-9A75-281D2C485518}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ElectronicGovermentLetter.My.MyApplication</StartupObject>
+    <RootNamespace>ElectronicGovermentLetter</RootNamespace>
+    <AssemblyName>ElectronicGovermentLetter</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ElectronicGovermentLetter.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ElectronicGovermentLetter.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="domisili%28asli%29.Designer.vb">
+      <DependentUpon>domisili%28asli%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="domisili%28asli%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="domisili%28belum%29.Designer.vb">
+      <DependentUpon>domisili%28belum%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="domisili%28belum%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="domisili%28rt%29.Designer.vb">
+      <DependentUpon>domisili%28rt%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="domisili%28rt%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="domisili%28sudah tidak berdomisili%29.Designer.vb">
+      <DependentUpon>domisili%28sudah tidak berdomisili%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="domisili%28sudah tidak berdomisili%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="domisiliorganisasi.Designer.vb">
+      <DependentUpon>domisiliorganisasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="domisiliorganisasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="domsili_ksm.Designer.vb">
+      <DependentUpon>domsili_ksm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="domsili_ksm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keterangan domsili keluarga%28belum memproses surat pindah%29.Designer.vb">
+      <DependentUpon>keterangan domsili keluarga%28belum memproses surat pindah%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="keterangan domsili keluarga%28belum memproses surat pindah%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keterangan_domisili%28proses%29.Designer.vb">
+      <DependentUpon>keterangan_domisili%28proses%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="keterangan_domisili%28proses%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="koneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pengantarippt.Designer.vb">
+      <DependentUpon>pengantarippt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pengantarippt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="permohonan_kompensasi.Designer.vb">
+      <DependentUpon>permohonan_kompensasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="permohonan_kompensasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skbedaidentitas.Designer.vb">
+      <DependentUpon>skbedaidentitas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="skbedaidentitas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skjanda.Designer.vb">
+      <DependentUpon>skjanda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="skjanda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SKKM.Designer.vb">
+      <DependentUpon>SKKM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SKKM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sk_anakkandung.Designer.vb">
+      <DependentUpon>sk_anakkandung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sk_anakkandung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sk_baliknamatanah.Designer.vb">
+      <DependentUpon>sk_baliknamatanah.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sk_baliknamatanah.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sk_ceraimati.Designer.vb">
+      <DependentUpon>sk_ceraimati.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sk_ceraimati.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suratkuasa.Designer.vb">
+      <DependentUpon>suratkuasa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suratkuasa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="s_pendistribusian.Designer.vb">
+      <DependentUpon>s_pendistribusian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="s_pendistribusian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="domisili%28asli%29.resx">
+      <DependentUpon>domisili%28asli%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="domisili%28belum%29.resx">
+      <DependentUpon>domisili%28belum%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="domisili%28rt%29.resx">
+      <DependentUpon>domisili%28rt%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="domisili%28sudah tidak berdomisili%29.resx">
+      <DependentUpon>domisili%28sudah tidak berdomisili%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="domisiliorganisasi.resx">
+      <DependentUpon>domisiliorganisasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="domsili_ksm.resx">
+      <DependentUpon>domsili_ksm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keterangan domsili keluarga%28belum memproses surat pindah%29.resx">
+      <DependentUpon>keterangan domsili keluarga%28belum memproses surat pindah%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keterangan_domisili%28proses%29.resx">
+      <DependentUpon>keterangan_domisili%28proses%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pengantarippt.resx">
+      <DependentUpon>pengantarippt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="permohonan_kompensasi.resx">
+      <DependentUpon>permohonan_kompensasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skbedaidentitas.resx">
+      <DependentUpon>skbedaidentitas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skjanda.resx">
+      <DependentUpon>skjanda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SKKM.resx">
+      <DependentUpon>SKKM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sk_anakkandung.resx">
+      <DependentUpon>sk_anakkandung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sk_baliknamatanah.resx">
+      <DependentUpon>sk_baliknamatanah.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sk_ceraimati.resx">
+      <DependentUpon>sk_ceraimati.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suratkuasa.resx">
+      <DependentUpon>suratkuasa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="s_pendistribusian.resx">
+      <DependentUpon>s_pendistribusian.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
